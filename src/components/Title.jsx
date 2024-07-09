@@ -11,13 +11,15 @@ function Title() {
   }
 
   return (
-    <div className="p-2 md:pr-4">
-      <Lottie
-        lottieRef={logoRef}
-        animationData={EnigmaLogo}
-        loop={false}
-        onClick={handleClick}
-      ></Lottie>
+    <div className="p-2 md:pr-4 flex justify-center">
+      <div className="w-[28dvw]">
+        <Lottie
+          lottieRef={logoRef}
+          animationData={EnigmaLogo}
+          loop={false}
+          onClick={handleClick}
+        ></Lottie>
+      </div>
     </div>
   );
 }

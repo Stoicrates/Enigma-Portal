@@ -9,33 +9,37 @@ function App() {
     <>
       <div className="h-screen w-screen">
         <div className="flex h-full gap-2 p-2 max-md:flex-col">
-          <div className="flex flex-col gap-2 md:w-[25dvw] ">
-            <Title />
-            <Birthdays />
-            <Annoucements />
+          <div className="flex flex-col gap-2 md:w-[20dvw] max-md:order-2">
+            <Card
+              title="Anjay"
+              description="short description aja broooooo"
+              link="https://www.google.com"
+            />
+            <Card
+              title="Anjay"
+              description="short description aja broooooo"
+              link="https://www.google.com"
+            />
+            <Card
+              title="Anjay"
+              description="short description aja broooooo"
+              link="https://www.google.com"
+            />
+            <Card
+              title="Anjay"
+              description="short description aja broooooo"
+              link="https://www.google.com"
+            />
           </div>
           <div className="flex flex-col gap-2 flex-1">
-            <Card
-              title="Anjay"
-              description="short description aja broooooo"
-              link="https://www.google.com"
-            />
-            <Card
-              title="Anjay"
-              description="short description aja broooooo"
-              link="https://www.google.com"
-            />
-            <Card
-              title="Anjay"
-              description="short description aja broooooo"
-              link="https://www.google.com"
-            />
-            <Card
-              title="Anjay"
-              description="short description aja broooooo"
-              link="https://www.google.com"
-            />
-            <div className="flex flex-row gap-2">
+            <Title />
+            <div className="flex flex-row gap-2 bg-slate-200 items-stretch">
+              <Birthdays />
+              <Birthdays />
+            </div>
+
+            <Annoucements />
+            <div className="flex flex-row gap-2 overflow-auto">
               <Card
                 title="Anjay"
                 description="short description aja broooooo"
@@ -53,7 +57,7 @@ function App() {
               />
             </div>
           </div>
-          <div className="flex flex-col gap-2 md:w-[25dvw]">
+          <div className="flex flex-col gap-2 md:w-[20dvw] max-md:order-1">
             <Card
               title="Sentrifugo"
               description="Sini cuti"
@@ -80,9 +84,9 @@ function App() {
               link="https://www.google.com"
             />
             <Card
-              title="Anjay"
-              description="short description aja broooooo"
-              link="https://www.google.com"
+              title="ProductVerse"
+              description="Checkout what the product team has created"
+              link="https://reliable-churros-37725b.netlify.app/"
             />
           </div>
         </div>

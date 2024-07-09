@@ -2,11 +2,11 @@ import React from "react";
 
 function Annoucementcard({ link }) {
   return (
-    <div className="bg-gray-300 p-4 verflow-auto">
+    <div className="bg-gray-300 p-4 overflow-auto rounded-xl">
       <a href={link}>
-        <h3>Annoucement Title</h3>
-        <p>15 Maret 2023</p>
-        <p>12 PM</p>
+        <h4 className="">Annoucement Title</h4>
+        <p className="scn">15 Maret 2023</p>
+        <p className="scn">12 PM</p>
       </a>
     </div>
   );
